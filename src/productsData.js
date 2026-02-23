@@ -189,6 +189,19 @@ export const PRODUCTS = [
       '(iii) Total (per cent.) 100'
     ]
   },
+  {
+    brand: 'AMBA SEAWEED 35%P',
+    displayName: 'AMBA SEAWEED 35%P',
+    specification: 'Seaweed(Sargassum wightii) extract 35% (Powder)',
+    crops: ['Chilli'],
+    dosage: ['Three foliar applications at 200 g/ha'],
+    gazette: 'S.O.3922(E), Dated 12-9-2024',
+    composition: [
+      '(i) Seaweed (Sargassum wightii) extract per cent. by weight, minimum 35',
+      '(ii) Bentonite per cent. by weight QS',
+      '(iii) Total (per cent.) 100'
+    ]
+  },
 ];
 
 export const SLUG_TO_BRAND = {
@@ -233,6 +246,10 @@ export const SLUG_TO_BRAND = {
   'AMBA PLANT 27%P': 'AMBA PLANT 27%P',
   'AMBA%20PLANT%2027%25P': 'AMBA PLANT 27%P',
   'amba plant 27%p': 'AMBA PLANT 27%P',
+  // AMBA SEAWEED 35%P aliases
+  'AMBA SEAWEED 35%P': 'AMBA SEAWEED 35%P',
+  'AMBA%20SEAWEED%2035%25P': 'AMBA SEAWEED 35%P',
+  'amba seaweed 35%p': 'AMBA SEAWEED 35%P',
   // AMBA AGRO S-A-A-8.3% GR aliases
   'AMBA AGRO S-A-A-8.3% GR': 'AMBA AGRO S-A-A-8.3% GR',
   'AMBA%20AGRO%20S-A-A-8.3%25%20GR': 'AMBA AGRO S-A-A-8.3% GR',
