@@ -124,21 +124,19 @@ export default function App() {
         </section>
 
         {/* Category of Fertilizers FOURTH */}
-        {product?.category && (
-          <section className="mt-6">
-            <StarBorder as="div" className="w-full" color="cyan" speed="5s" thickness={2}>
-              <div className="flex items-start">
-                <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-[#e8d8a6]/25 text-[#e8d8a6] mr-3 shadow-inner">
-                  <span className="text-lg">🏷️</span>
-                </div>
-                <div className="flex-1">
-                  <div className="text-[#d9c98f] text-sm">Category of Fertilizers:</div>
-                  <div className="text-white text-base sm:text-lg">{product.category}</div>
-                </div>
+        <section className="mt-6">
+          <StarBorder as="div" className="w-full" color="cyan" speed="5s" thickness={2}>
+            <div className="flex items-start">
+              <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-[#e8d8a6]/25 text-[#e8d8a6] mr-3 shadow-inner">
+                <span className="text-lg">🏷️</span>
               </div>
-            </StarBorder>
-          </section>
-        )}
+              <div className="flex-1">
+                <div className="text-[#d9c98f] text-sm">Category:</div>
+                <div className="text-white text-base sm:text-lg">{product?.category || ''}</div>
+              </div>
+            </div>
+          </StarBorder>
+        </section>
 
         {/* Info grid with StarBorder */}
         <section className="mt-8 grid grid-cols-1 gap-4">
